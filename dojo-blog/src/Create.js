@@ -14,7 +14,7 @@ const Create = () => {
 
         fetch("http://localhost:8000/blogs/", {
             method: "POST",
-            heather: { 'Content-Type': 'application/json'},
+            headers: { 'Content-Type': 'application/json'},
             body: JSON.stringify(blog)
         }).then(() => {
             console.log('New Blog Added')
