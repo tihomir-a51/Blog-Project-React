@@ -1,22 +1,40 @@
 {
-    "blogs": [
-        {
-            "title": "My first blog",
-            "body": "Why do we use it?\nIt is a long established that a reader will be distracted",
-            "author": "David",
-            "id": 1
-        },
-        {
-            "title": "Opening party",
-            "body": "Why do we use it?\nIt is a long established that a reader will be distracted",
-            "author": "Steven",
-            "id": 2
-        },
-        {
-            "title": "New one",
-            "body": "Why do we use it?\nIt is a long established that a reader will be distracted",
-            "author": "David",
-            "id": 3
-        }
-    ]
+  "blogs": [
+    {
+      "title": "My first blog",
+      "body": "Why do we use it?\nIt is a long established that a reader will be distracted",
+      "author": "David",
+      "id": "1"
+    },
+    {
+      "title": "Opening party",
+      "body": "Why do we use it?\nIt is a long established that a reader will be distracted",
+      "author": "Steven",
+      "id": "2"
+    },
+    {
+      "title": "New one",
+      "body": "Why do we use it?\nIt is a long established that a reader will be distracted",
+      "author": "David",
+      "id": "3"
+    },
+    {
+      "id": "b2c3",
+      "title": "New Blog With POST",
+      "body": "Let see if it works",
+      "author": "David"
+    },
+    {
+      "id": "d492",
+      "title": "One more",
+      "body": "let see again...",
+      "author": "Peter"
+    },
+    {
+      "id": "6108",
+      "title": "One more",
+      "body": "let see again...",
+      "author": "Peter"
+    }
+  ]
 }
