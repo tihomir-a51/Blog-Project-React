@@ -71,8 +71,16 @@ body {
   font-size: 15px;
   font-weight: bold;
   transition: transform 0.3s ease-in-out
-
 }
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 /* create new blog form */
 .create {
   max-width: 400px;
@@ -103,11 +111,3 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
-/* .blog-details button{
-  background: #f1356d;
-  color: #fff;
-  border: 0;
-  padding: 8px;
-  border-radius: 8px;
-  cursor: pointer;
-} */

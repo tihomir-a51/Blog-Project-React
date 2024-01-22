@@ -16,7 +16,7 @@ const Create = () => {
 
         fetch("http://localhost:8000/blogs/", {
             method: "POST",
-            headers: { 'Content-Type': 'application/json'},
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(blog)
         }).then(() => {
             console.log('New Blog Added')
@@ -26,41 +26,41 @@ const Create = () => {
     }
 
 
-    return ( 
+    return (
         <div className="create">
             <h2>Add a New Blog</h2>
             <form onSubmit={handleSubmit}>
                 <label>Blog Title</label>
                 <input
-                type="text"
-                placeholder="Write your blog body..."
-                required
-                value={title}
-                onChange={(e) => setTitle(e.target.value)}
+                    type="text"
+                    placeholder="Write your blog body..."
+                    required
+                    value={title}
+                    onChange={(e) => setTitle(e.target.value)}
                 />
                 <label>Blog Body:</label>
-                <textarea 
-                placeholder="Write your blog body..."
-                required
-                value={body}
-                onChange={(e) => setBody(e.target.value)}>
+                <textarea
+                    placeholder="Write your blog body..."
+                    required
+                    value={body}
+                    onChange={(e) => setBody(e.target.value)}>
                 </textarea>
                 <label>Blog Author:</label>
                 <select
-                value={author}
-                onChange={(e) => setAuthor(e.target.value)}
+                    value={author}
+                    onChange={(e) => setAuthor(e.target.value)}
                 >
                     <option value="David">David</option>
                     <option value="Steven">Steven</option>
                     <option value="Peter">Peter</option>
                 </select>
-                { !isPending && <button>Add Blog</button> }
-                { isPending && <button disabled>Adding Blog...</button> }
-                
+                {!isPending && <button>Add Blog</button>}
+                {isPending && <button disabled>Adding Blog...</button>}
+
 
             </form>
         </div>
-     );
+    );
 }
- 
+
 export default Create;
