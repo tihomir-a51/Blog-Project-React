@@ -17,7 +17,7 @@ function App() {
 
 export default App;
 
-
+// npx json-server --watch database/db.json --port 8000 - to connect the database
 
 
 
