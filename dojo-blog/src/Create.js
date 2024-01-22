@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useHistory } from 'react-router-dom';
+import url from "./Path";
 
 const Create = () => {
     const [title, setTitle] = useState('');
@@ -14,7 +15,7 @@ const Create = () => {
 
         setIsPending(true);
 
-        fetch("http://localhost:8000/blogs/", {
+        fetch(url, {
             method: "POST",
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(blog)

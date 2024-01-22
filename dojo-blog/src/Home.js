@@ -1,9 +1,10 @@
 import BlogList from './BlogList';
+import url from './Path';
 import useFetch from './useFetch';
 
 
 const Home = () => {
-    const {data: blogs, isPending, error } = useFetch('http://localhost:8000/blogs');
+    const { data: blogs, isPending, error } = useFetch(url);
 
     return (
         <div className="home">
