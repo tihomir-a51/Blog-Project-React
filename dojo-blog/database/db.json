@@ -1,22 +1,16 @@
 {
   "blogs": [
     {
-      "id": "1272",
-      "title": "Second blog title",
-      "body": "SEcond blog body",
-      "author": "Peter"
-    },
-    {
       "id": "97a4",
       "title": "New blog",
       "body": "Blog body",
       "author": "Steven"
     },
     {
-      "id": "4414",
-      "title": "asdsad",
-      "body": "adsasd",
-      "author": "Steven"
+      "id": "f59d",
+      "title": "New Blog",
+      "body": "Body",
+      "author": "Peter"
     }
   ]
 }
