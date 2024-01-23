@@ -1,12 +1,6 @@
 {
   "blogs": [
     {
-      "id": "97a4",
-      "title": "New blog",
-      "body": "Blog body",
-      "author": "Steven"
-    },
-    {
       "id": "f59d",
       "title": "New Blog",
       "body": "Body",
